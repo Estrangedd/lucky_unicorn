@@ -1,3 +1,6 @@
 
+get_number = int(input("choose a number"))
 
-get_number = int(input()
+times_five = get_number * 5
+
+print(times_five)
