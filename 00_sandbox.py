@@ -1,6 +1,6 @@
+import random
 
-get_number = int(input("choose a number"))
+for item in range (0, 20):
+    number= random.randint(0, 4)
+    print(number, end="\t")
 
-times_five = get_number * 5
-
-print(times_five)
