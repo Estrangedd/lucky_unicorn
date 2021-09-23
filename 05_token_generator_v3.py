@@ -5,10 +5,10 @@ import random
 STARTING_BALANCE = 100
 balance = STARTING_BALANCE
 # Testing loop to generate 20 tokens
-for item in range(0,500):
+for item in range(0,100):
     chosen_num = random.randint(1,100)
     # Adjust balance]
-    if chosen_num <= 5:
+    if 1 <= chosen_num <= 5:
         chosen = "Unicorn"
         balance += 4
 
